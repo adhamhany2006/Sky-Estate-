@@ -1,0 +1,370 @@
+/*Start Font Aosmen*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*End Font Aosmen*/
+*{
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  box-sizing: border-box
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 5%
+}
+nav .logo{
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-size: 30px;
+  color: black;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  grid-gap: 20px
+}
+nav ul li a{
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: black;
+  transition: 0.6s;
+}
+nav ul li a:hover{
+  transition: 0.6s;
+  color: silver;
+  font-family: serif
+}
+.btn1{
+  margin: 15px;
+  color: dodgerblue;
+  border: solid 2px #eee;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 22px;
+  padding: 7px;
+  transition: 0.6s;
+}
+.btn1:hover{
+  transition: 0.6s;
+  background: dodgerblue;
+  color: snow;
+}
+.btn2{
+  margin: 15px;
+  color: snow;
+  background: dodgerblue;
+  border: none;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 22px;
+  padding: 7px;
+  transition: 0.6s;
+}
+.btn2:hover{
+  transition: 0.6s;
+  border: solid 2px #eee;
+  color: dodgerblue;
+  background: transparent
+}
+/*«««««««««««««««««««»»»»»»»»»»»»»»» */
+.contant{
+  height: 35vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 5%;
+}
+.text-contant h1{
+  margin: 15px;
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-size: 50px;
+}
+.text-contant p{
+  margin: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: 18px
+}
+.text-contant span{
+  margin: 15px;
+  font-family: "Poppins", serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+.buying{
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.buying h3{
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+  padding: 15px;
+}
+.seller{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #eee;
+  max-width: 390px;
+  margin: 20px 15px;
+}
+.seller h4{
+  color: dodgerblue;
+  font-size: 40px;
+  margin: 15px;
+  font-family: "Poppins", serif;
+}
+.buy-1{
+  background: #0094FF4F;
+  color: snow;
+}
+.sell-1{
+  background: #eee;
+  color: dodgerblue;
+}
+.rent-1{
+  background: #eee;
+  color: dodgerblue;
+} 
+.cont{
+  width: 400px;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%
+}
+/*«««««««««««««««««««»»»»»»»»»»»»»»» */
+.what{
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.text-what h2{
+  margin: 10px;
+  font-size: 30px;
+  font-family: "Poppins", serif;
+  font-weight: 800;
+}
+.text-what p{
+  width: 450px;
+  margin: auto;
+  font-family: sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+/*«««««««««««««««««««»»»»»»»»»»»»»»» */
+
+.services{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 25px;
+}
+.srv22{
+  box-shadow: 0 0 25px 0 #ddd;
+  border: solid 3px snow;
+}
+.img-services{
+  margin: 15px;
+  background: #eee
+}
+.text-srv{
+  margin: 15px;
+  font-size: 22px;
+  font-weight: 700;
+  color: dodgerblue;
+  font-family: "Poppins", serif;
+}
+.textp-srv{
+  width: 230px;
+  margin: auto;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.srv{
+  width: 50px;
+  margin: 15px;
+}
+.best{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 25px;
+}
+.text-best h2{
+  margin: 15px;
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-size: 30px
+}
+.text-best p{
+  width: 450px;
+  font-family: sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.products{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 2% 5%
+}
+.img-products{
+  margin: 15px;
+  background: snow;
+}
+.text-pro{
+  margin: 10px;
+  font-family: "Poppins", serif;
+  font-size: 22px;
+  font-weight: 800;
+}
+.textp-pro{
+  margin: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px
+}
+.price-products{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.price-products span{
+  margin: 10px;
+  font-size: 25px;
+  font-weight: 800;
+}
+.price-products .btn-price{
+  padding: 10px;
+  font-size: 22px;
+  border: none;
+  font-family: sans-serif;
+  font-weight: 800;
+  background: dodgerblue;
+  color: snow;
+}
+.pro{
+  width: 250px;
+  margin: 15px;
+}
+/*«««««««««««««««««««»»»»»»»»»»»»»»» */
+
+.make{
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 5%;
+}
+.text-make h2{
+  margin: 15px;
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-size: 40px;
+}
+.text-make p{
+  width: 450px;
+  margin: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+.btn-make{
+  margin: 15px;
+  padding: 10px;
+  font-size: 22px;
+  border: none;
+  font-family: sans-serif;
+  font-weight: 800;
+  background: dodgerblue;
+  color: snow;
+}
+.img-make{
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+.mak1{
+  width: 400px;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%
+}
+.mak2{
+  position: absolute;
+  width: 250px;
+  right: 200px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius:50%;
+  z-index: 1;
+}
+/*«««««««««««««««««««»»»»»»»»»»»»»»» */
+
+.contacts{
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 5%;
+}
+.coc{
+  width: 450px;
+  margin: 15px;
+  border-top-left-radius: 50%
+}
+.input-s{
+  background: #eee;
+  border-bottom-right-radius: 50%
+}
+.input-s h2{
+  text-align: center;
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-size: 30px
+}
+input{
+  padding: 5px;
+  outline: none;
+  border-radius: 25px;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 15px;
+  border: solid 2px dodgerblue
+}
+textarea{
+  padding: 5px;
+  outline: none;
+  border-radius: 25px;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 15px;
+  border: solid 2px dodgerblue
+}
+.btn-coc{
+  margin: 15px;
+  color: snow;
+  border: none;
+  font-family: sans-serif;
+  font-weight: bolder;
+  background: dodgerblue;
+  font-size: 22px;
+  padding: 7px;
+  transition: 0.6s;
+}
